@@ -12,6 +12,7 @@ namespace Domain.Entities
         public int CursoId { get; set; }
         public string Descricao { get; set; }
         public virtual ICollection<Professor> Professores { get; set; }
+        public virtual ICollection<Turma> Turmas { get; set; }
 
         public override string ToString()
         {

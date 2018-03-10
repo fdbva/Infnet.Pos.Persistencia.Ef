@@ -47,7 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config\AlunoConfig.cs" />
+    <Compile Include="Config\CursoConfig.cs" />
+    <Compile Include="Config\ProfessorConfig.cs" />
+    <Compile Include="Config\TurmaConfig.cs" />
+    <Compile Include="Config\UsuarioConfig.cs" />
     <Compile Include="DataContext.cs" />
+    <Compile Include="Migrations\201803101802022_Initial.cs" />
+    <Compile Include="Migrations\201803101802022_Initial.Designer.cs">
+      <DependentUpon>201803101802022_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +69,11 @@
       <Project>{C7050822-E300-4D45-94BB-C3B0EEE27215}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201803101802022_Initial.resx">
+      <DependentUpon>201803101802022_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
