@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{311B8DE2-8FA1-42AD-8CF5-6882BC883634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C7050822-E300-4D45-94BB-C3B0EEE27215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{A0C6631D-C28C-4FD1-A120-D96BD9BC79A3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{311B8DE2-8FA1-42AD-8CF5-6882BC883634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311B8DE2-8FA1-42AD-8CF5-6882BC883634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311B8DE2-8FA1-42AD-8CF5-6882BC883634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311B8DE2-8FA1-42AD-8CF5-6882BC883634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7050822-E300-4D45-94BB-C3B0EEE27215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7050822-E300-4D45-94BB-C3B0EEE27215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7050822-E300-4D45-94BB-C3B0EEE27215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7050822-E300-4D45-94BB-C3B0EEE27215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C6631D-C28C-4FD1-A120-D96BD9BC79A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C6631D-C28C-4FD1-A120-D96BD9BC79A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C6631D-C28C-4FD1-A120-D96BD9BC79A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C6631D-C28C-4FD1-A120-D96BD9BC79A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
