@@ -8,10 +8,13 @@ namespace Domain.Entities
 {
     public class Aluno : Pessoa
     {
-        public Aluno()
+        /*public Aluno()
         {
-            Usuario = new Usuario();
-        }
+            if (this.Usuario == null)
+            {
+                Usuario = new Usuario();
+            }
+        }*/
         public int AlunoId { get; set; }
         public virtual Turma Turma { get; set; }
         public virtual Usuario Usuario { get; set; }

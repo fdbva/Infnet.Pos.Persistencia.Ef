@@ -47,6 +47,11 @@
     <Compile Include="Entities\Professor.cs" />
     <Compile Include="Entities\Turma.cs" />
     <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Interfaces\IAlunoRepository.cs" />
+    <Compile Include="Interfaces\IMatricula.cs" />
+    <Compile Include="Interfaces\IProfessorRepository.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Interfaces\ITurmaRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
